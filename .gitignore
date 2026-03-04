@@ -1,0 +1,27 @@
+## Cartelle di compilazione (Build outputs)
+[Bb]in/
+[Oo]bj/
+Generated\ Files/
+
+## Cartella specifica di Visual Studio
+.vs/
+
+## File utente e preferenze
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+# Spesso si preferisce ignorare l'intera cartella packages
+packages/
+!packages/repository.config
+
+## File di log e temporanei
+*.log
+*.tmp
+*.cache
+
+## Artifact di pubblicazione (Publish)
+*.publish.xml
+*.azurepubxml
